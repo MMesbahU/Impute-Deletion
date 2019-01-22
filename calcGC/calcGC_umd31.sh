@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## GC for Bovine Genome Assembly UMD3.1
+
 # To Run: bash calcGC_umd31.sh UMD3.1_test.fa fasta_formatter  
 
 ############################################################################################
@@ -41,12 +43,13 @@ python calcGCcontent.py \
 	--fastaHeader fastaHeader.txt \
 	-o ${outGCfile}
 
-# compress files
+########################
+# Remove file
+# rm ${formattedFASTA}
+# Compress Fasta file 
 gzip $(basename ${umd31} .gz)
-# gzip ${outGCfile}
-rm ${formattedFASTA}
 
-# END
+######################################## END
 
 
 
