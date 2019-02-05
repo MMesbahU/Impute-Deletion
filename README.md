@@ -32,13 +32,16 @@ bash calcGC/run_extractReadDepth.sh outputDir Chr${chr}.vcf.gz GC_annotation sam
 ```
 bash calcGC/run_calcRDstats.sh < 1. GC annotation bed file from step 1.2 > < 2. output directory from step 1.3 > < 3. bedfile_header file from step 1.3 > 
 ```
-## Building Haplotype Reference for imputing large chromosomal deletions
+## 2. Building Haplotype Reference for imputing large chromosomal deletions
 
 ### Extend reference panel using read depth from VCF file [Read Depth genotyping]( http://pure.au.dk/portal/en/publications/genotype-call-for-chromosomal-deletions-using-readdepth-from-whole-genome-sequence-variants-in-cattle(a42d451c-ebbe-49ca-8dc0-61c166bb120c).html )
 
 
 
 
-## Imputation
+## 3. Imputation
 
+##### Citations
+1. Mesbah-Uddin M, Guldbrandtsen B, Iso-Touru T, Vilkki J, De Koning DJ, Boichard D, Lund MS, Sahana G: Genome-wide mapping of large deletions and their population-genetic properties in dairy cattle. DNA Res 2018, 25(1):49-59 [Genome-wide mapping of large deletions](https://doi.org/10.1093/dnares/dsx037)
+2. Mesbah-Uddin M, Guldbrandtsen B, Lund MS, Sahana G: Genotype call for chromosomal deletions using read-depth from whole genome sequence variants in cattle. In: Proceedings of the World Congress on Genetics Applied to Livestock Production: 2018; Auckland, New Zealand; 2018: 662. [Read Depth genotyping]( http://pure.au.dk/portal/en/publications/genotype-call-for-chromosomal-deletions-using-readdepth-from-whole-genome-sequence-variants-in-cattle(a42d451c-ebbe-49ca-8dc0-61c166bb120c).html )
 
