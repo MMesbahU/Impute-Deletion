@@ -5,7 +5,8 @@
 # 2. GC_annotation.bed
 # 3. Sample_IDs list to keep
 # 4. Chr
-# bash readDepth_in_GCbins_per_sampl.sh VCF_file GC_annotation Sample_IDs_2_keep Chr
+# 5. outputDir
+# bash extractReadDepth.sh VCF_file GC_annotation Sample_IDs_2_keep Chr outputDir
 
 VCFfile=${1}
 GC_annotation=${2}
@@ -55,9 +56,5 @@ do
 done < <(awk '{print $NF}' ${GC_annotation} | sort -V | uniq )
 
 # END
-
-
-
-
 
 
