@@ -44,5 +44,5 @@ bash calcGC/run_calcRDstats.sh <1.GC_annotation_bed_file_from_step_1.2> <2.outpu
 ##### References
 1. Mesbah-Uddin M, Guldbrandtsen B, Iso-Touru T, Vilkki J, De Koning DJ, Boichard D, Lund MS, Sahana G: Genome-wide mapping of large deletions and their population-genetic properties in dairy cattle. DNA Res 2018, 25(1):49-59 [Genome-wide mapping of large deletions](https://doi.org/10.1093/dnares/dsx037)
 2. Mesbah-Uddin M, Guldbrandtsen B, Lund MS, Sahana G: Genotype call for chromosomal deletions using read-depth from whole genome sequence variants in cattle. In: Proceedings of the World Congress on Genetics Applied to Livestock Production: 2018; Auckland, New Zealand; 2018: 662. [Read Depth genotyping]( https://github.com/MMesbahU/MMesbahU.github.io/blob/master/pdfs/Mesbah-Uddin%2C%20M.%20et%20al.%20WCGALP%202018.pdf )
-3. Mesbah-Uddin M, Guldbrandtsen B, Lund MS, Boichard D, Sahana G: A Strategy for jointly imputing whole-genome sequence variants and large chromosomal deletions in cattle (in preparation).
+3. Mesbah-Uddin, M., B. Guldbrandtsen, M. S. Lund, D. Boichard and G. Sahana. Joint imputation of whole-genome sequence variants and large chromosomal deletions in cattle. J Dairy Sci, 2019 (accepted)
 
